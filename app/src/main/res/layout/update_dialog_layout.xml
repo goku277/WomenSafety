@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="25dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="You can update your created profile or saved contacts to be used incase of emergency as well.Choose your option carefully"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/update_profile_btn_id"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="Update Profile"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_id" />
+
+    <Button
+        android:id="@+id/update_contacts_id"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="Update Contacts"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/update_profile_btn_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/update_profile_btn_id"
+        app:layout_constraintTop_toBottomOf="@+id/update_profile_btn_id" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

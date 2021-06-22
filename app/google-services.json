@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "150134937666",
+    "project_id": "mysafetyprojectapp",
+    "storage_bucket": "mysafetyprojectapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150134937666:android:bf6893d01c17635266b5db",
+        "android_client_info": {
+          "package_name": "com.dhanmani.mysafetyapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150134937666-no8oonhc8nqbtdflju47a76s146co087.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dhanmani.mysafetyapplication",
+            "certificate_hash": "a96b51b131b1063cba67867ff7931d19e48f8260"
+          }
+        },
+        {
+          "client_id": "150134937666-0d7j1u2c6d801er9k564171tnnqmuup2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2uBa39VDL_nIIpCX3lCr_H3NlvtOZjdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150134937666-0d7j1u2c6d801er9k564171tnnqmuup2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

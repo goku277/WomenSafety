@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="25dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/message_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose any of the two provided options"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="137dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/rounded_buttons"
+        android:text="Create profile"
+        android:textColor="#ffffff"
+        android:id="@+id/create_profile_id"
+        app:layout_constraintTop_toBottomOf="@+id/message_text_id" />
+
+    <Button
+        android:id="@+id/check_profile_id"
+        android:layout_width="137dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="Check Profile"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/create_profile_id"
+        app:layout_constraintTop_toBottomOf="@+id/create_profile_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
